@@ -1,0 +1,9 @@
+mutation {
+  approveUpdatePlan(updatePlanId: 12341, reviewerUserId: "bverde") {
+    requester
+    approver
+    state
+    creationDateTime
+    reviewedDateTime
+  }
+}
